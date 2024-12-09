@@ -1,0 +1,159 @@
+/* Fuente y base */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #e8f5e9, #c8e6c9); /* Fondo degradado en tonos verdes */
+    color: #2e382e; /* Texto marrón suave */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #388e3c; /* Verde vibrante */
+    text-shadow: 1px 1px 4px rgba(76, 175, 80, 0.6); /* Sombra verde clara */
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Encabezado */
+.header {
+    background-color: #388e3c; /* Verde oscuro */
+    color: #f1f8e9; /* Blanco verdoso */
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    border-bottom: 5px solid #8bc34a; /* Verde lima */
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Productos */
+.producto {
+    border: 1px solid #8bc34a; /* Verde lima */
+    background-color: #f1f8e9; /* Blanco verdoso */
+    padding: 20px;
+    margin: 15px;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    animation: fadeIn 0.6s ease-out;
+}
+
+.producto:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    background-color: #dcedc8; /* Verde claro */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    animation: popIn 0.4s ease-out;
+}
+
+@keyframes popIn {
+    0% {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Tarjetas */
+.card {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #f1f8e9; /* Blanco verdoso */
+    border: 2px solid #8bc34a; /* Verde lima */
+    border-radius: 10px;
+    padding: 20px;
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+    animation: slideIn 0.6s ease-out;
+}
+
+.card:hover {
+    background-color: #dcedc8; /* Verde claro */
+    border-color: #388e3c; /* Verde oscuro */
+    transform: translateY(-5px);
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-30px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Botones */
+button {
+    background-color: #8bc34a; /* Verde lima */
+    color: #ffffff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+button:hover {
+    background-color: #558b2f; /* Verde más oscuro */
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+    transform: translateY(1px);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Pie de página */
+.footer {
+    background-color: #2e382e; /* Marrón oscuro */
+    color: #f1f8e9; /* Blanco verdoso */
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    border-top: 5px solid #8bc34a; /* Verde lima */
+    position: relative;
+    animation: fadeInUp 0.8s ease-out;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

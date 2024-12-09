@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Manzana Roja",
+        "description": "Manzanas frescas, dulces y crujientes. Perfectas para comer solas o en postres.",
+        "image": "Manzana.jpg",
+        "cost": 25.00
+    },
+    {
+        "title": "Plátano",
+        "description": "Plátanos maduros llenos de energía y sabor. Ideales para snacks o batidos.",
+        "image": "Plátano.jpg",
+        "cost": 15.00
+    },
+    {
+        "title": "Naranja",
+        "description": "Naranjas jugosas y dulces, llenas de vitamina C para un día saludable.",
+        "image": "Naranja.jpg",
+        "cost": 20.00
+    },
+    {
+        "title": "Fresas",
+        "description": "Fresas frescas y dulces, perfectas para postres, batidos o como snack.",
+        "image": "Fresa.jpg",
+        "cost": 30.00
+    },
+    {
+        "title": "Mango",
+        "description": "Manguitos frescos y jugosos, ideales para disfrutar en verano.",
+        "image": "Mango.jpg",
+        "cost": 40.00
+    },
+    {
+        "title": "Piña",
+        "description": "Piñas tropicales, dulces y llenas de sabor para preparar jugos o postres.",
+        "image": "Piña.jpg",
+        "cost": 35.00
+    },
+    {
+        "title": "Uvas",
+        "description": "Uvas frescas, dulces y fáciles de disfrutar en cualquier momento del día.",
+        "image": "Uva.jpg",
+        "cost": 50.00
+    },
+    {
+        "title": "Sandía",
+        "description": "Sandía jugosa y refrescante, ideal para los días calurosos.",
+        "image": "sandia.jpg",
+        "cost": 18.00
+    },
+    {
+        "title": "Limón",
+        "description": "Limones frescos y jugosos, perfectos para bebidas o como aderezo.",
+        "image": "Limon.jpg",
+        "cost": 12.00
+    },
+    {
+        "title": "Pera",
+        "description": "Peras dulces y jugosas, perfectas para snacks saludables.",
+        "image": "Pera.jpg",
+        "cost": 28.00
+    }
+]
